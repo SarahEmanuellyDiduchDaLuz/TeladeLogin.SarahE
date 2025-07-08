@@ -24,6 +24,67 @@ body{
     background-color: #fff;
     border-radius: 7px;
     padding: 40px;
-    box-shadow: 10px 10px 40px rgba(0,0,0,0.4);
+    box-shadow: 25px 25px 50px rgba(0,0,0,0.4);
+    gap: 5px;
+}
 
+.formLogin h1{
+    margin: 0;
+    padding: 0;
+    font-size: 2.3em;
+
+}
+
+.formLogin p{
+    display: inline-block;
+    font-size: 14px;
+    color: ##f1731f;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    border-bottom: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+.formLogin input:focus{
+    border: 1px solid #9e0b41
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formLogin a{
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color:#f1731f;
+    transition: all linear 160ms;
+}
+
+.formLogin a:hover {
+    color: #9e0b41;
+}
+
+.btn {
+    background-color: #f1731f;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: o !important;
+}
+
+.btn :hover{
+    transform: scale(1.05);
+    background-color: #9e0b41;
 }
