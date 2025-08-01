@@ -34,7 +34,20 @@
             .value.trim(); 
             const senha = document.getElementById("password")
             .value.trim(); 
-        }
+
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if(!emailRegex.test(email)){
+                alert("Insira um e-mail válido.");
+                return;
+            }
+            if(email === usuarioCorreto && senha === senhaCorreta){
+                alert("Login bem-sucedido.");
+                window.location.href = "#";
+            }else{
+                alert("E-mail ou senha incorretos");
+            }
+
+        });
     </script>
 </body>
 </html>
